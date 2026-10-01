@@ -1,0 +1,6 @@
+timestamp,git_sha,method,query,params,run,seconds,bytes_read,instance_type,region
+2026-09-19T12:56:43+00:00,422dfc4,virtual,q2,"{""cycle"": ""2026/09/15/T0000Z"", ""lat_max"": 59.06, ""lat_min"": 48.94, ""lon_max"": 2.25, ""lon_min"": -8.16}",0,22.4225,,c7i.16xlarge,us-east-1
+2026-09-19T12:57:00+00:00,422dfc4,virtual,q2,"{""cycle"": ""2026/09/15/T0000Z"", ""lat_max"": 59.06, ""lat_min"": 48.94, ""lon_max"": 2.25, ""lon_min"": -8.16}",1,16.9816,,c7i.16xlarge,us-east-1
+2026-09-19T12:57:17+00:00,422dfc4,virtual,q2,"{""cycle"": ""2026/09/15/T0000Z"", ""lat_max"": 59.06, ""lat_min"": 48.94, ""lon_max"": 2.25, ""lon_min"": -8.16}",2,17.0256,,c7i.16xlarge,us-east-1
+2026-09-19T12:57:34+00:00,422dfc4,virtual,q2,"{""cycle"": ""2026/09/15/T0000Z"", ""lat_max"": 59.06, ""lat_min"": 48.94, ""lon_max"": 2.25, ""lon_min"": -8.16}",3,17.08,,c7i.16xlarge,us-east-1
+2026-09-19T12:57:51+00:00,422dfc4,virtual,q2,"{""cycle"": ""2026/09/15/T0000Z"", ""lat_max"": 59.06, ""lat_min"": 48.94, ""lon_max"": 2.25, ""lon_min"": -8.16}",4,16.9686,,c7i.16xlarge,us-east-1

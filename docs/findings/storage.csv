@@ -1,0 +1,13 @@
+method,variant,gb
+virtual,data,18.56
+virtual,with_netcdf,6512.6
+download,data,0
+download,with_netcdf,6494.0
+fuse,data,0
+fuse,with_netcdf,6494.0
+native_dl,data,3827.7
+native_dl,with_netcdf,10321.7
+native_ts,data,3646.3
+native_ts,with_netcdf,10140.3
+table_hilbert,data,5122.4
+table_hilbert,with_netcdf,11616.4

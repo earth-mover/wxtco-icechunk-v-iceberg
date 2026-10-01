@@ -1,0 +1,6 @@
+timestamp,git_sha,method,query,params,run,seconds,bytes_read,net_rx_bytes,instance_type,region,detail
+2026-09-30T01:40:24+00:00,22a9f29,virtual,q1,"{""cycle"": ""2026/09/15/T0000Z"", ""lat"": 51.5, ""lon"": -0.1}",0,2.619,,99986385,m7i.4xlarge,us-east-1,{}
+2026-09-30T01:40:25+00:00,22a9f29,virtual,q1,"{""cycle"": ""2026/09/15/T0000Z"", ""lat"": 51.5, ""lon"": -0.1}",1,1.0016,,82795437,m7i.4xlarge,us-east-1,{}
+2026-09-30T01:40:26+00:00,22a9f29,virtual,q1,"{""cycle"": ""2026/09/15/T0000Z"", ""lat"": 51.5, ""lon"": -0.1}",2,0.992,,82828337,m7i.4xlarge,us-east-1,{}
+2026-09-30T01:40:27+00:00,22a9f29,virtual,q1,"{""cycle"": ""2026/09/15/T0000Z"", ""lat"": 51.5, ""lon"": -0.1}",3,0.9836,,82780483,m7i.4xlarge,us-east-1,{}
+2026-09-30T01:40:28+00:00,22a9f29,virtual,q1,"{""cycle"": ""2026/09/15/T0000Z"", ""lat"": 51.5, ""lon"": -0.1}",4,0.9833,,82810478,m7i.4xlarge,us-east-1,{}

@@ -1,0 +1,5 @@
+timestamp,git_sha,method,query,params,run,seconds,bytes_read,net_rx_bytes,instance_type,region,detail
+2026-09-30T15:12:06+00:00,15420e6,native_ts,q2,"{""cycle"": ""2026/09/15/T0000Z"", ""lat_max"": 59.06, ""lat_min"": 48.94, ""lon_max"": 2.25, ""lon_min"": -8.16}",0,3.1419,,37872069,m7i.4xlarge,us-east-1,{}
+2026-09-30T15:12:09+00:00,15420e6,native_ts,q2,"{""cycle"": ""2026/09/15/T0000Z"", ""lat_max"": 59.06, ""lat_min"": 48.94, ""lon_max"": 2.25, ""lon_min"": -8.16}",1,2.5857,,37855948,m7i.4xlarge,us-east-1,{}
+2026-09-30T15:12:11+00:00,15420e6,native_ts,q2,"{""cycle"": ""2026/09/15/T0000Z"", ""lat_max"": 59.06, ""lat_min"": 48.94, ""lon_max"": 2.25, ""lon_min"": -8.16}",2,2.2129,,37859372,m7i.4xlarge,us-east-1,{}
+2026-09-30T15:12:13+00:00,15420e6,native_ts,q2,"{""cycle"": ""2026/09/15/T0000Z"", ""lat_max"": 59.06, ""lat_min"": 48.94, ""lon_max"": 2.25, ""lon_min"": -8.16}",3,2.1829,,37812372,m7i.4xlarge,us-east-1,{}

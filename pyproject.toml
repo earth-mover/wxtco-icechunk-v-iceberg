@@ -1,0 +1,57 @@
+[project]
+name = "wxtco"
+version = "0.0.1"
+description = "Weather forecast data TCO analysis: tables vs native Icechunk vs virtual Icechunk"
+license = "Apache-2.0"
+requires-python = ">=3.12"
+dependencies = [
+    "xarray",
+    "numpy",
+    "zarr>=3",
+    "icechunk>=2.2.2,<3",
+    "arraylake[obstore]>=1.2",
+    "virtualizarr[hdf,icechunk]>=2.7",
+    "h5netcdf",
+    "obstore",
+    "pyarrow",
+    "pyiceberg",
+    "duckdb",
+    "typer",
+    "python-dotenv>=1.2.3",
+    "obspec-utils>=0.9.0",
+    "pandas>=3.0.6",
+    "duckdb-extension-httpfs>=1.5.5",
+    "tabulate>=0.10.0",
+    "boto3[crt]>=1.43.98",
+    "pcodec>=1.0.3",
+    "dask>=2026.8.0",
+]
+
+[project.scripts]
+wxtco = "wxtco.cli:app"
+
+[dependency-groups]
+dev = [
+    "duckdb-extension-avro>=1.5.5",
+    "duckdb-extension-iceberg>=1.5.5",
+    "pyiceberg[sql-sqlite]>=0.12.0",
+    "pytest",
+    "ruff",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/wxtco"]
+
+[tool.ruff]
+line-length = 110
+
+[tool.ruff.lint.flake8-bugbear]
+extend-immutable-calls = ["typer.Option", "typer.Argument"]
+
+[tool.ruff.format]
+# The virtualization module keeps its original layout. Lint still runs on it.
+exclude = ["src/wxtco/ingest/mogreps_virtual.py"]

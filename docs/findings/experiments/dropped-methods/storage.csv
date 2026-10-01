@@ -1,0 +1,7 @@
+method,variant,gb
+table,data,5440.6
+table,with_netcdf,11934.6
+download_crt,data,0
+download_crt,with_netcdf,6494.0
+table_nocache,data,5440.6
+table_nocache,with_netcdf,11934.6

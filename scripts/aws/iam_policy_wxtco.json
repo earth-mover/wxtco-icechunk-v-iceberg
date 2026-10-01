@@ -1,0 +1,29 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "CopyBucketReadWrite",
+      "Effect": "Allow",
+      "Action": ["s3:GetObject", "s3:PutObject", "s3:DeleteObject", "s3:ListBucket", "s3:GetBucketLocation"],
+      "Resource": ["arn:aws:s3:::em-tco-mogreps", "arn:aws:s3:::em-tco-mogreps/*"]
+    },
+    {
+      "Sid": "SourceBucketRead",
+      "Effect": "Allow",
+      "Action": ["s3:GetObject", "s3:ListBucket"],
+      "Resource": ["arn:aws:s3:::met-office-global-ensemble-model-data", "arn:aws:s3:::met-office-global-ensemble-model-data/*"]
+    },
+    {
+      "Sid": "ArraylakeTokenSecret",
+      "Effect": "Allow",
+      "Action": ["secretsmanager:GetSecretValue"],
+      "Resource": "arn:aws:secretsmanager:us-east-1:<ACCOUNT_ID>:secret:wxtco/arraylake-token-*"
+    },
+    {
+      "Sid": "JobLogs",
+      "Effect": "Allow",
+      "Action": ["logs:CreateLogGroup", "logs:CreateLogStream", "logs:PutLogEvents"],
+      "Resource": "*"
+    }
+  ]
+}

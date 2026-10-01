@@ -1,0 +1,2 @@
+timestamp,git_sha,method,query,params,run,seconds,bytes_read,net_rx_bytes,instance_type,region,detail
+2026-09-30T15:50:14+00:00,15420e6,download,q1,"{""cycle"": ""2026/09/15/T0000Z"", ""lat"": 51.5, ""lon"": -0.1}",0,12.243,5990956266,6128273374,m7i.4xlarge,us-east-1,{}

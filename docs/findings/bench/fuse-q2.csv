@@ -1,0 +1,2 @@
+timestamp,git_sha,method,query,params,run,seconds,bytes_read,net_rx_bytes,instance_type,region,detail
+2026-09-30T03:07:15+00:00,22a9f29,fuse,q2,"{""cycle"": ""2026/09/15/T0000Z"", ""lat_max"": 59.06, ""lat_min"": 48.94, ""lon_max"": 2.25, ""lon_min"": -8.16}",0,1250.4771,,39073315603,m7i.4xlarge,us-east-1,{}

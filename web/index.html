@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MOGREPS-G storage TCO · chart widgets</title>
+<style>
+  html { background: #F5F5F5; color: #201F2C; font-family: 'ABC Diatype Rounded', system-ui, -apple-system, 'Segoe UI', sans-serif; }
+  body { margin: 0; padding: 32px 16px 64px; }
+  main { max-width: 960px; margin: 0 auto; }
+  h1 { font-weight: 400; letter-spacing: -0.03em; font-size: 28px; margin: 0 0 6px; }
+  h2 { font-weight: 600; font-size: 18px; margin: 40px 0 4px; }
+  p.lede { color: #4e4e4e; margin: 0 0 20px; max-width: 70ch; line-height: 1.55; }
+  nav { font-size: 13px; color: #787878; margin-bottom: 20px; }
+  nav a { color: #6D0EDB; text-decoration: none; margin-right: 14px; }
+  code { font-family: ui-monospace, monospace; font-size: 13px; background: #fff; border: 1px solid #e4e4e4; border-radius: 4px; padding: 1px 5px; }
+</style>
+</head>
+<body>
+<main>
+  <nav><a href="storage.html">Storage</a><a href="ingest.html">Ingestion</a><a href="queries.html">Queries</a><a href="tco.html">TCO</a></nav>
+  <h1>Weather forecast data: Icechunk vs. Iceberg</h1>
+  <p class="lede">The four interactive widgets for the blog post, on one page. Each is a custom element from <code>wxtco-charts.js</code>; the numbers come from <code>wxtco-data.js</code>, generated from the study's findings.</p>
+  <h2>1. Storage cost</h2>
+  <wxtco-storage></wxtco-storage>
+  <h2>2. Ingestion cost and latency</h2>
+  <wxtco-ingest></wxtco-ingest>
+  <h2>3. Query cost and performance</h2>
+  <wxtco-queries></wxtco-queries>
+  <h2>4. Total cost of ownership</h2>
+  <wxtco-tco></wxtco-tco>
+</main>
+<script type="module" src="wxtco-charts.js"></script>
+</body>
+</html>

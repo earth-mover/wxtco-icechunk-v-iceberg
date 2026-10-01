@@ -1,0 +1,7 @@
+timestamp,git_sha,method,query,params,run,seconds,bytes_read,net_rx_bytes,instance_type,region,detail
+2026-09-30T15:36:05+00:00,15420e6,virtual,q1,"{""cycle"": ""2026/09/15/T0000Z"", ""lat"": 51.5, ""lon"": -0.1}",0,2.3309,,100124697,m7i.4xlarge,us-east-1,{}
+2026-09-30T15:36:06+00:00,15420e6,virtual,q1,"{""cycle"": ""2026/09/15/T0000Z"", ""lat"": 51.5, ""lon"": -0.1}",1,0.969,,83393597,m7i.4xlarge,us-east-1,{}
+2026-09-30T15:36:07+00:00,15420e6,virtual,q1,"{""cycle"": ""2026/09/15/T0000Z"", ""lat"": 51.5, ""lon"": -0.1}",2,0.8297,,83330554,m7i.4xlarge,us-east-1,{}
+2026-09-30T15:36:08+00:00,15420e6,virtual,q1,"{""cycle"": ""2026/09/15/T0000Z"", ""lat"": 51.5, ""lon"": -0.1}",3,0.9309,,83352628,m7i.4xlarge,us-east-1,{}
+2026-09-30T15:36:09+00:00,15420e6,virtual,q1,"{""cycle"": ""2026/09/15/T0000Z"", ""lat"": 51.5, ""lon"": -0.1}",4,0.9906,,83399028,m7i.4xlarge,us-east-1,{}
+2026-09-30T15:36:10+00:00,15420e6,virtual,q1,"{""cycle"": ""2026/09/15/T0000Z"", ""lat"": 51.5, ""lon"": -0.1}",5,0.8314,,83381705,m7i.4xlarge,us-east-1,{}

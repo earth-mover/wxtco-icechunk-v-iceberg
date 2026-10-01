@@ -1,0 +1,7 @@
+method,cycle,instance_type,seconds,s3_put,s3_get
+table,2026/09/12/T0000Z,c7i.16xlarge,1402,,
+table,2026/09/12/T0600Z,c7i.16xlarge,1402,,
+table,2026/09/12/T1200Z,c7i.16xlarge,1402,,
+table,2026/09/12/T1800Z,c7i.16xlarge,1402,,
+table,2026/09/13/T0000Z,c7i.16xlarge,1402,,
+table,2026/09/13/T0600Z,c7i.16xlarge,1402,,

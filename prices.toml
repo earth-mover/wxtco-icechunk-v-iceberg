@@ -1,0 +1,20 @@
+# Unit prices, us-east-1, list price, 2026-09. Update and cite when changed.
+[s3]
+storage_gb_month = 0.023
+put_per_1000 = 0.005
+get_per_1000 = 0.0004
+# LIST is billed at the PUT/COPY/POST tier; HEAD at the GET tier.
+list_per_1000 = 0.005
+
+[ec2]
+# $/hour on-demand
+"c7i.16xlarge" = 2.856
+"m7i.4xlarge" = 0.8064
+local = 0.0
+
+[workload]
+# per day, decision 010
+q1 = 10000
+q2 = 4
+q3 = 1
+etl_cycles = 4

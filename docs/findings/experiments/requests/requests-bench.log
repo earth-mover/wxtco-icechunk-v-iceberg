@@ -1,0 +1,55 @@
+== commit 15420e6
+PHASE idle idle 0 1790780461 1790780701
+native_ts q1: 0.43s
+PHASE native_ts q1 1 1790780761 1790780821
+native_ts q1: 0.30s, 0.10s, 0.08s, 0.09s, 0.08s, 0.08s
+PHASE native_ts q1 6 1790780881 1790780941
+native_ts q2: 3.13s
+PHASE native_ts q2 1 1790781001 1790781061
+native_ts q2: 3.14s, 2.59s, 2.21s, 2.18s
+PHASE native_ts q2 4 1790781121 1790781181
+native_ts q3_stream: 110.75s
+PHASE native_ts q3_stream 1 1790781241 1790781361
+native_ts q3_stream: 109.29s, 108.04s
+PHASE native_ts q3_stream 2 1790781421 1790781661
+native_dl q1: 0.92s
+PHASE native_dl q1 1 1790781721 1790781781
+native_dl q1: 0.75s, 0.41s, 0.43s, 1.06s, 0.41s, 0.39s
+PHASE native_dl q1 6 1790781841 1790781901
+native_dl q2: 7.03s
+PHASE native_dl q2 1 1790781961 1790782021
+native_dl q2: 7.08s, 6.50s, 6.48s, 6.48s
+PHASE native_dl q2 4 1790782081 1790782141
+native_dl q3_stream: 12.32s
+PHASE native_dl q3_stream 1 1790782201 1790782261
+native_dl q3_stream: 12.15s, 11.96s
+PHASE native_dl q3_stream 2 1790782321 1790782381
+virtual q1: 2.41s
+PHASE virtual q1 1 1790782441 1790782501
+virtual q1: 2.33s, 0.97s, 0.83s, 0.93s, 0.99s, 0.83s
+PHASE virtual q1 6 1790782561 1790782621
+virtual q2: 29.49s
+PHASE virtual q2 1 1790782681 1790782741
+virtual q2: 25.99s, 18.43s, 18.46s, 18.66s
+PHASE virtual q2 4 1790782801 1790782921
+virtual q3_stream: 94.79s
+PHASE virtual q3_stream 1 1790782981 1790783101
+virtual q3_stream: 71.10s, 68.36s
+PHASE virtual q3_stream 2 1790783161 1790783341
+download q1: 12.24s
+PHASE download q1 1 1790783401 1790783461
+download q1: 11.97s, 11.72s, 12.22s, 11.83s, 11.79s, 11.62s
+PHASE download q1 6 1790783521 1790783641
+download q2: 59.00s
+PHASE download q2 1 1790783701 1790783821
+download q2: 57.70s, 58.12s, 59.03s, 57.98s
+PHASE download q2 4 1790783881 1790784121
+download q3_stream: 74.84s
+PHASE download q3_stream 1 1790784181 1790784301
+download q3_stream: 74.57s, 75.22s
+PHASE download q3_stream 2 1790784361 1790784541
+table q1: 100.60s
+PHASE table_hilbert q1 1 1790784601 1790784721
+table q1: 87.39s, 29.53s, 28.59s, 28.73s, 27.58s, 27.45s
+PHASE table_hilbert q1 6 1790784781 1790785021
+REQUESTS_DONE

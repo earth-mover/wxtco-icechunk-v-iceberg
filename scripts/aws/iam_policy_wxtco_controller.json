@@ -1,0 +1,70 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "LaunchTaggedInstances",
+      "Effect": "Allow",
+      "Action": ["ec2:RunInstances"],
+      "Resource": "arn:aws:ec2:us-east-1:<ACCOUNT_ID>:instance/*",
+      "Condition": {"StringEquals": {"aws:RequestTag/project": "wxtco"}}
+    },
+    {
+      "Sid": "LaunchSupportingResources",
+      "Effect": "Allow",
+      "Action": ["ec2:RunInstances", "ec2:CreateTags"],
+      "Resource": [
+        "arn:aws:ec2:us-east-1::image/*",
+        "arn:aws:ec2:us-east-1:<ACCOUNT_ID>:volume/*",
+        "arn:aws:ec2:us-east-1:<ACCOUNT_ID>:network-interface/*",
+        "arn:aws:ec2:us-east-1:<ACCOUNT_ID>:subnet/*",
+        "arn:aws:ec2:us-east-1:<ACCOUNT_ID>:security-group/*",
+        "arn:aws:ec2:us-east-1:<ACCOUNT_ID>:instance/*"
+      ]
+    },
+    {
+      "Sid": "ManageTaggedInstances",
+      "Effect": "Allow",
+      "Action": ["ec2:TerminateInstances", "ec2:StopInstances"],
+      "Resource": "arn:aws:ec2:us-east-1:<ACCOUNT_ID>:instance/*",
+      "Condition": {"StringEquals": {"aws:ResourceTag/project": "wxtco"}}
+    },
+    {
+      "Sid": "Describe",
+      "Effect": "Allow",
+      "Action": ["ec2:Describe*", "ssm:GetParameter", "ssm:GetCommandInvocation", "ssm:ListCommandInvocations", "ssm:DescribeInstanceInformation", "ce:GetCostAndUsage", "cloudwatch:GetMetricStatistics"],
+      "Resource": "*"
+    },
+    {
+      "Sid": "RunCommandsOnTaggedInstances",
+      "Effect": "Allow",
+      "Action": ["ssm:SendCommand"],
+      "Resource": ["arn:aws:ec2:us-east-1:<ACCOUNT_ID>:instance/*"],
+      "Condition": {"StringEquals": {"ssm:resourceTag/project": "wxtco"}}
+    },
+    {
+      "Sid": "RunShellDocument",
+      "Effect": "Allow",
+      "Action": ["ssm:SendCommand"],
+      "Resource": "arn:aws:ssm:us-east-1::document/AWS-RunShellScript"
+    },
+    {
+      "Sid": "PassInstanceRole",
+      "Effect": "Allow",
+      "Action": ["iam:PassRole"],
+      "Resource": "arn:aws:iam::<ACCOUNT_ID>:role/wxtco-ec2"
+    },
+    {
+      "Sid": "ControlPrefixesOnly",
+      "Effect": "Allow",
+      "Action": ["s3:GetObject", "s3:PutObject"],
+      "Resource": ["arn:aws:s3:::em-tco-mogreps/_code/*", "arn:aws:s3:::em-tco-mogreps/_logs/*", "arn:aws:s3:::em-tco-mogreps/_progress/*"]
+    },
+    {
+      "Sid": "ListControlPrefixes",
+      "Effect": "Allow",
+      "Action": ["s3:ListBucket"],
+      "Resource": "arn:aws:s3:::em-tco-mogreps",
+      "Condition": {"StringLike": {"s3:prefix": ["_code/*", "_logs/*", "_progress/*"]}}
+    }
+  ]
+}

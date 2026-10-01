@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Total cost of ownership · MOGREPS-G storage TCO</title>
+<style>
+  html { background: #F5F5F5; color: #201F2C; font-family: 'ABC Diatype Rounded', system-ui, -apple-system, 'Segoe UI', sans-serif; }
+  body { margin: 0; padding: 32px 16px 64px; }
+  main { max-width: 960px; margin: 0 auto; }
+  h1 { font-weight: 400; letter-spacing: -0.03em; font-size: 28px; margin: 0 0 6px; }
+  p.lede { color: #4e4e4e; margin: 0 0 20px; max-width: 70ch; line-height: 1.55; }
+  nav { font-size: 13px; color: #787878; margin-bottom: 20px; }
+  nav a { color: #6D0EDB; text-decoration: none; margin-right: 14px; }
+</style>
+</head>
+<body>
+<main>
+  <nav><a href="index.html">All widgets</a><a href="storage.html">Storage</a><a href="ingest.html">Ingestion</a><a href="queries.html">Queries</a><a href="tco.html">TCO</a></nav>
+  <h1>Total cost of ownership</h1>
+  <p class="lede">Monthly cost per method, split into storage, ingest, and the three queries. Tune the four workload parameters; the study defaults are the starting point.</p>
+  <wxtco-tco></wxtco-tco>
+</main>
+<script type="module" src="wxtco-charts.js"></script>
+</body>
+</html>

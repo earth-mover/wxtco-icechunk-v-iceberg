@@ -1,0 +1,2 @@
+timestamp,git_sha,method,query,params,run,seconds,bytes_read,instance_type,region
+2026-09-19T19:58:22+00:00,2d84550,table_nocache,q2,"{""cycle"": ""2026/09/15/T0000Z"", ""lat_max"": 59.06, ""lat_min"": 48.94, ""lon_max"": 2.25, ""lon_min"": -8.16}",0,2208.577,,m7i.4xlarge,us-east-1

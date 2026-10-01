@@ -1,0 +1,4 @@
+timestamp,git_sha,method,query,params,run,seconds,bytes_read,instance_type,region
+2026-09-20T16:44:29+00:00,unknown,table_hilbert,q1,"{""cycle"": ""2026/09/15/T0000Z"", ""lat"": 51.5, ""lon"": -0.1}",0,9.9867,,m7i.4xlarge,us-east-1
+2026-09-20T16:44:29+00:00,unknown,table_hilbert,q1,"{""cycle"": ""2026/09/15/T0000Z"", ""lat"": 51.5, ""lon"": -0.1}",1,0.5912,,m7i.4xlarge,us-east-1
+2026-09-20T16:44:30+00:00,unknown,table_hilbert,q1,"{""cycle"": ""2026/09/15/T0000Z"", ""lat"": 51.5, ""lon"": -0.1}",2,0.5579,,m7i.4xlarge,us-east-1

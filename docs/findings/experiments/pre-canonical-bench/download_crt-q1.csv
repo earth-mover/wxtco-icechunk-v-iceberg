@@ -1,0 +1,4 @@
+timestamp,git_sha,method,query,params,run,seconds,bytes_read,instance_type,region
+2026-09-20T19:28:20+00:00,unknown,download_crt,q1,"{""cycle"": ""2026/09/15/T0000Z"", ""lat"": 51.5, ""lon"": -0.1}",0,11.3748,5990956266,m7i.4xlarge,us-east-1
+2026-09-20T19:28:31+00:00,unknown,download_crt,q1,"{""cycle"": ""2026/09/15/T0000Z"", ""lat"": 51.5, ""lon"": -0.1}",1,11.1975,5990956266,m7i.4xlarge,us-east-1
+2026-09-20T19:28:42+00:00,unknown,download_crt,q1,"{""cycle"": ""2026/09/15/T0000Z"", ""lat"": 51.5, ""lon"": -0.1}",2,11.0257,5990956266,m7i.4xlarge,us-east-1
